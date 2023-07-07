@@ -1,0 +1,97 @@
+#menu{
+    background-image: url("img/pngfind\ 1.png");
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1648px;
+
+}
+.menu-cards-box{
+    margin-top: 53px;
+    max-width: 1648px;
+    border-radius: 71.067px;
+    background: #90E051;
+    padding: 84px 53px 79px;
+}
+.boorger-box{
+    position: relative;
+    padding: 51px 31px 0 0;
+}
+.group-boorger{
+    display: flex;
+}
+.boorger-box img{
+position: absolute;
+width: 147px;
+height: 118px;
+top:15px ;
+left:33px;
+}
+.text-brg{
+position: relative;
+width: 232px;
+height: 253px;
+border-radius: 23.39px;
+background: #FFF;
+display: flex;
+flex-direction: column;
+gap: 10px;
+color: rgba(255, 245, 0, 1);
+padding: 92px 34.2px 17px 19px;
+}
+.text-brg h6{
+display: flex;
+color: #000;
+font-size: 16.787px;
+font-weight: 700;
+letter-spacing: -0.42px;
+}
+.text-brg p{
+color: #000;
+font-size: 14.205px;
+line-height: 20px;
+font-weight: 500;
+letter-spacing: -0.355px;
+}
+.text-brg>h4{
+display: flex;
+gap: 5px;
+}
+.text-brg i{
+font-size: 26.594px;
+}
+.text-brg h5{
+color: #90E051;
+font-size: 19.596px;
+font-weight: 700;
+letter-spacing: -0.588px;
+}
+.plus{
+position: absolute;
+width: 34.992px;
+height: 34.992px;
+border-radius: 31px;
+background: #90E051;
+top: 202px;
+left: 177px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+}
+.search-box{
+    width: 253px;
+    height: 45px;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 13px 0 0 20px;
+}
+.search-box input{
+    outline: none;
+    border: none;
+}

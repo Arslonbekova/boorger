@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/teaser.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/testimonial.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,10 +17,10 @@
 </head>
 <body>    
     <header>
-        <div class="container-header">     
+        <div class="container ">     
             <nav>
-                <div class="hero">
-                    <div class="hero-center">
+                <div class="nav">
+                    <div class="nav-center">
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Menu</a></li>
@@ -24,7 +28,7 @@
                             <li><a href="#">Shop</a></li>
                         </ul>
                     </div>
-                    <div class="hero-right">
+                    <div class="nav-right">
                         <a href=""><i class="bi bi-search"></i></a>
                         <a href=""><i class="bi bi-person"></i></a>
                         <a href=""><i class="bi bi-handbag"></i></a>
@@ -33,19 +37,20 @@
             </nav>
             <section id="hero">
                 <div class="hero-text">
-                    <div class="section-left">
+                    <div class="hero-left">
                         <div><h1>Tasty Food</h1></div>
-                        <div><h2>Collections</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Varius sed pharetra dictum neque massa congue</p>
+                        <div>
+                            <h2>Collections</h2>
+                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Varius sed pharetra dictum neque massa congue</h5>
                         </div>
-                        <div class="section-left-a">
+                        <div class="hero-left-a">
                             <div class="aa"><a href="#">See All</a></div>
                             <div class="ab"><a href="#">Menu</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="section-right">
+                <div class="hero-right">
                     <div class="green"></div>  
                     <img src="./img/pngfind 1.png">
                     <div class="icon"><p>$22.53</p></div>
@@ -53,239 +58,249 @@
             </section>
         </div> 
     </header>
-    <main>
+     <main>
         <section id="teaser">
-            <div class="teaser-container">
-                <div class="group1">
-                    <img src="img/Group.png">
-                    <p>Professional Chefs</p>
-                    <p>220</p>
-                </div>
-                <div class="group1">
-                    <img src="img/Group (1).png">
-                    <p>Items Of Food</p>
-                    <p>420</p>
-                </div>
-                <div class="group1">
-                    <img src="img/Group (2).png">
-                    <p>Years Off Exprienced</p>
-                    <p>320</p>
-                </div>
-                <div class="group1">
-                    <img src="img/Group (3).png">
-                    <p>Happy Customers</p>
-                    <p>30+</p>
+            <div class="container teaser">
+                <div class="teaser-card-box">
+                    <div class="group1">
+                        <img src="img/Group.png">
+                        <p>Professional Chefs</p>
+                        <p>220</p>
+                    </div>
+                    <div class="group1">
+                        <img src="img/Group (1).png">
+                        <p>Items Of Food</p>
+                        <p>420</p>
+                    </div>
+                    <div class="group1">
+                        <img src="img/Group (2).png">
+                        <p>Years Off Exprienced</p>
+                        <p>320</p>
+                    </div>
+                    <div class="group1">
+                        <img src="img/Group (3).png">
+                        <p>Happy Customers</p>
+                        <p>30+</p>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="menu">
-            <div class="menu-container">
-                <div class="search-box">
-                    <label for="a12">    <i class="bi bi-search"></i></label>
-                    <input id="a12" type="search" placeholder="Search">
-                </div>
-                <div class="group-boorger">
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чикен бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>5.3</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
-                        </div>
-                        <img src="img/pngfind 1.png" alt="chik-boorger">
+            <div class="container menu">
+                <div class="menu-cards-box">
+                    <div class="search-box">
+                        <label for="a12"><i class="bi bi-search"></i></label>
+                        <input id="a12" type="search" placeholder="Search">
                     </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чиз бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>4.9</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                    <div class="group-boorger">
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чикен бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>5.3</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/pngfind 1.png" alt="chik-boorger">
                         </div>
-                        <img src="img/boorg.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чикен бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>5.3</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чиз бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>4.9</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/boorg.png" alt="chik-boorger">
                         </div>
-                        <img src="img/pngfind 1.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чиз бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>4.9</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чикен бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>5.3</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/pngfind 1.png" alt="chik-boorger">
                         </div>
-                        <img src="img/boorg.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чикен бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>5.3</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чиз бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>4.9</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/boorg.png" alt="chik-boorger">
                         </div>
-                        <img src="img/pngfind 1.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чиз бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>4.9</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чикен бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>5.3</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/pngfind 1.png" alt="chik-boorger">
                         </div>
-                        <img src="img/boorg.png" alt="chik-boorger">
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чиз бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>4.9</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/boorg.png" alt="chik-boorger">
+                        </div>                      
                     </div>
-                    
-                </div>
-                <div class="group-boorger">
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чикен бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>5.3</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                    <div class="group-boorger">
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чикен бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>5.3</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/pngfind 1.png" alt="chik-boorger">
                         </div>
-                        <img src="img/pngfind 1.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чиз бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>4.9</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чиз бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>4.9</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/boorg.png" alt="chik-boorger">
                         </div>
-                        <img src="img/boorg.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чикен бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>5.3</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чикен бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>5.3</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/pngfind 1.png" alt="chik-boorger">
                         </div>
-                        <img src="img/pngfind 1.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чиз бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>4.9</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чиз бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>4.9</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/boorg.png" alt="chik-boorger">
                         </div>
-                        <img src="img/boorg.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чикен бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>5.3</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чикен бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>5.3</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/pngfind 1.png" alt="chik-boorger">
                         </div>
-                        <img src="img/pngfind 1.png" alt="chik-boorger">
-                    </div>
-                    <div class="boorger-box">
-                        <div class="text-brg">
-                            <h6>Чиз бургер</h6>
-                            <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
-                            <h4>
-                                <i class="bi bi-star-fill"></i>
-                                <p>4.9</p>
-                            </h4>
-                            <h5>$ 22.53 </h5>
-                            <div class="plus"><i class="bi bi-plus"></i></div>
+                        <div class="boorger-box">
+                            <div class="text-brg">
+                                <h6>Чиз бургер</h6>
+                                <p>200 гр. котлеты + сырный<br>салат + лук + томаты</p>
+                                <h4>
+                                    <i class="bi bi-star-fill"></i>
+                                    <p>4.9</p>
+                                </h4>
+                                <h5>$ 22.53 </h5>
+                                <div class="plus"><i class="bi bi-plus"></i></div>
+                            </div>
+                            <img src="img/boorg.png" alt="chik-boorger">
                         </div>
-                        <img src="img/boorg.png" alt="chik-boorger">
+                        
                     </div>
-                    
                 </div>
             </div>
         </section>
         <section id="review">
-            <div class="review">
-                <div class="review-left">
-                    <h2>Customer Review</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. 
-                         Urna, elit augue urna, vitae feugiat pretium donec id elementum. 
-                         Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus 
-                         sit eu velit in consequat.</p>
-                    <div class="r-top">
-                        <img src="img/Ellipse 2552.png" alt="user">
-                        <div> 
-                            <h4>Abdur Rahman</h4>
-                            <p>Customer</p>
+            <div class="container review ">
+                <div class="testimonial">
+                    <div class="review-left">
+                        <h2>Customer Review</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                             Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. 
+                             Urna, elit augue urna, vitae feugiat pretium donec id elementum. 
+                             Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus 
+                             sit eu velit in consequat.</p>
+                        <div class="r-top">
+                            <img src="img/Ellipse 2552.png" alt="user">
+                            <div> 
+                                <h4>Abdur Rahman</h4>
+                                <p>Customer</p>
+                            </div>
+                            <a href=""><i class="bi bi-arrow-left"></i></a>
+                            <a href=""><i class="bi bi-arrow-right"></i></a>
                         </div>
-                        <a href=""><i class="bi bi-arrow-left"></i></a>
-                        <a href=""><i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="review-right">
+                        <img src="img/image 1.png" alt="r-photo">
+                    </div>
+                    <div class="order">
+                        <h4>Order now</h4>
+                        <p>10.00$</p>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur 
+                            elit. Quisque diam pellentesque bibendum
+                            fringilla bibendum. Urna, elit augue urna,</p></div>
+                        
                     </div>
                 </div>
-                <div class="review-right">
-                    <img src="img/image 1.png" alt="r-photo">
-                </div>
-                <div class="order">
-                    <h4>Order now</h4>
-                    <p>10.00$</p>
-                    <div class="stars">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                    </div>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur 
-                        elit. Quisque diam pellentesque bibendum
-                        fringilla bibendum. Urna, elit augue urna,</p></div>
-                    
-                </div>
+            </div>
+        </section>
+        <section class="dowald">
+            <div class="div">
+                
             </div>
         </section>
     </main>

@@ -1,0 +1,100 @@
+.review{
+    display: flex;
+    justify-content: center;
+    width: 1556.402px;
+}
+.testimonial{
+    margin-top: 108px;
+    width: 1556.402px;
+    height: 660px;
+    display: flex;
+    position: relative;
+}
+    .review-left{
+        padding-top:181px;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .review-left>h2{
+    color: var(--gray-1, #333);
+    font-size: 60.457px;
+    font-weight: 700;
+    line-height: 70.533px;
+    }
+    .review-left>p{
+    color: var(--gray-3, #828282);
+    font-size: 20.152px;
+    line-height: 30.228px
+    }
+    .r-top{
+        display: flex;
+    }
+    .r-top>div{
+        width: 510px;}
+    
+    .r-top h4{
+    color: #90E051;
+    font-size: 22.671px;
+    font-family: Rubik;
+    font-weight: 700;
+    line-height: 32.747px;
+    }
+    .r-top>div p{
+        color: var(--gray-3, #828282);
+    font-size: 18.839px;
+    font-family: Rubik;
+    line-height: 28.259px;
+    }
+    .r-top a i{
+    font-size: 30px;
+    line-height: 30px;}
+    
+    .review-right img{
+        width: 695.3px;
+        height: 534.846px;
+    }
+    .review-right{
+        padding: 0 0 186px 200px;
+    }
+    .order{
+    position: absolute;
+    width: 546.628px;
+    height: 268.276px;
+    border-radius: 10.697px;
+    background: #FFF;
+    top: 391px; ;
+    right: 230px; 
+    padding: 40px 37px ;
+    }
+    .order>h4{
+    color: var(--gray-1, #333);
+    font-size: 25.19px;
+    font-weight: 700;
+    line-height: 35.266px;
+    }
+    .stars{
+        margin-top: 10px;
+        color: rgba(144, 224, 81, 1);
+    }
+    .stars i{
+        font-size: 20px;
+        line-height: 20px;   
+    }
+    .order div p{
+        margin-top: 20px;
+        width: 471.058px;
+    height: 90.685px;
+    color: var(--gray-3, #828282);
+        font-size: 22.333px;
+        font-weight: 500;
+        line-height: 33.5px;}
+    .order>p{
+        position: absolute;
+        top: 40px;
+        left:438px ;
+        color: #4F4F4F;
+        font-size: 20.152px;
+        font-weight: 700;
+        line-height: 30.228px;
+    }
